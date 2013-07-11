@@ -10,6 +10,8 @@
 ===============================================================================
 */
 
+/* edit lpc17xx_lib/include/config.h for the right settings !!! */
+
 #ifdef __USE_CMSIS
 #include "LPC17xx.h"
 #endif
@@ -37,6 +39,8 @@ void uip_log(char *m)
 }
 
 /*--------------------------- main ---------------------------------*/
+/* edit lpc17xx_lib/include/config.h for the right settings !!!     */
+
 
 unsigned int i;
 uip_ipaddr_t ipaddr;	/* local IP address */
@@ -67,7 +71,7 @@ int main(void) {
 
 
 	bl_init();
-
+	/* edit lpc17xx_lib/include/config.h for the right settings !!! */
 
 	while(1)
 	{

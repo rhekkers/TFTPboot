@@ -12,13 +12,13 @@
 #ifndef CONFIG_H_
 #define CONFIG_H_
 
-#define FIRMWARE_FILENAME "test.bin"
+#define FIRMWARE_FILENAME "otgw.bin"
 
 // controller IP address
 #define MYIP1 192
 #define MYIP2 168
 #define MYIP3 10
-#define MYIP4 206
+#define MYIP4 205
 
 // Subnet Mask
 #define SMSK1 255
